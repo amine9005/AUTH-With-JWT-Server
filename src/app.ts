@@ -4,7 +4,6 @@ import corsOptions from "./config/corsOptions";
 import { config } from "./config/config";
 
 import indexRouter from "./routes/router";
-import usersRouter from "./routes/users.router";
 import authRouter from "./routes/auth.router";
 
 import cookieParser from "cookie-parser";
@@ -17,7 +16,6 @@ function createServer() {
   app.use(cookieParser());
 
   app.use(config.api.url, indexRouter);
-  app.use(config.api.url + "/users", usersRouter);
   app.use(config.api.url + "/auth", authRouter);
 
   app.use("*", (req, res) => {
