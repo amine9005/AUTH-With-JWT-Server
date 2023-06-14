@@ -9,7 +9,7 @@
 ✅JWT
 ✅Eslint
 
-<h5>the Server does the following:</h5>
+<h5>The Server does the following:</h5>
 <ul>
 <li>Allow The User to Login With Valid credentials</li>
 <li>Create an access token for the user</li>
