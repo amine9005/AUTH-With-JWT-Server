@@ -14,6 +14,7 @@
 <li>Allow The User to Login With Valid credentials</li>
 <li>Create an access token for the user</li>
 <li>Create an refresh token for the user</li>
+<li>Refresh the user access token when request is valid</li>
 <li>Allow The User to Register With Valid credentials </li>
 <li>Allow The User to logout </li>
 
