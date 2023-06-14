@@ -1,4 +1,4 @@
-# Restaurants Finder
+# Auth System API
 
 <h3>Technologies:</h3>
 ✅MongoDB
