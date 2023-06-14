@@ -120,7 +120,7 @@ const login = async (req: Request, res: Response) => {
 
 const refresh = (req: Request, res: Response) => {
   const cookies = req.cookies;
-  console.log("refresh request: " + JSON.stringify(req.cookies));
+  // console.log("refresh request: " + JSON.stringify(req.cookies));
 
   if (!cookies?.jwt) {
     return res.status(401).json({ error: "Please Login First!" });
