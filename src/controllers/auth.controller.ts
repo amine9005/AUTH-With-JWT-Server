@@ -102,8 +102,8 @@ const login = async (req: Request, res: Response) => {
 
       res.cookie("jwt", refreshToken, {
         httpOnly: true,
-        // secure: true,
-        sameSite: "lax",
+        secure: true,
+        sameSite: "none",
         path: "/",
         maxAge: REFRESH_TOKEN_MAX_AGE_IN_DAYS * 24 * 60 * 60 * 1000,
       });
